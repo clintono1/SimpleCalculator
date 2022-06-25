@@ -57,7 +57,6 @@ class Calculator {
                 return
         }
         this.currentOperand = computation
-        console.log(`"this equals: ${computation}`)
         this.operation = undefined
         this.previousOperand = ''
     }
@@ -117,7 +116,6 @@ operationButtons.forEach(button => {
 equalsButton.addEventListener('click', button => {
     calculator.compute()
     calculator.updateDisplay()
-    console.log("success")
 })
 
 allClearButton.addEventListener('click', button => {
