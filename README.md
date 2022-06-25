@@ -13,3 +13,4 @@ Functions Implemented using switch statements are:
 - Modulos (%)
 - Negation (+/-)
 
+![Alt text](screenshot.png?raw=true "Screenshot")
